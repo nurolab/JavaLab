@@ -10,6 +10,7 @@ public class TestPrime{
         if (n%2 == 0) return false;
         for (int d = 3; d*d <= n ; d += 2)
         {
+            //System.out.println(d);  
             System.out.println(n+"%"+d);
             if(n%d == 0) return false;
         }
